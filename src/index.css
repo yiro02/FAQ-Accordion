@@ -10,6 +10,13 @@
   --color-Purple-200: hsl(281, 83%, 54%);
 }
 
+html,
+body {
+  font-size:  13px; 
+  margin: 0%;
+   
+}
+ 
 body {
   font-family: "Work Sans", sans-serif;
   font-weight: 600;
@@ -17,4 +24,10 @@ body {
 
 .proud-of-this-css {
   color: papayawhip;
+}
+
+@media (max-width: 568px) {
+  .faq-container {
+    padding: 1rem;
+  }
 }
